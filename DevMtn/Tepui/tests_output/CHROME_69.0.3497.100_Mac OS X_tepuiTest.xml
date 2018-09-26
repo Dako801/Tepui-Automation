@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="1">
+
+  <testsuite name="tepuiTest"
+    errors="1" failures="0" hostname="" id="" package="tepuiTest" skipped="0"
+    tests="1" time="24.28" timestamp="Tue, 25 Sep 2018 21:25:08 GMT">
+  
+    <testcase name="addItemToCart" classname="tepuiTest" time="24.28" assertions="5">
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+
+  
+    <system-err>
+      Error while running sendKeys command: elementIdValue method expects 3 or 4 arguments - 2 given.
+    at Page.sendKeys (/usr/local/lib/node_modules/nightwatch/lib/page-object/command-wrapper.js:117:25)
+    at module.exports (/Users/Dakoda/DevMtn/Tepui/tests/test-assets/cart.js:27:10)
+    at testData.cartData.forEach.test (/Users/Dakoda/DevMtn/Tepui/tests/tepuiTest.js:22:13)
+    at Array.forEach (&lt;anonymous&gt;)
+    at Object.addItemToCart (/Users/Dakoda/DevMtn/Tepui/tests/tepuiTest.js:21:27)
+    at Module.call (/usr/local/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /usr/local/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
+    </system-err>
+  
+
+  
+  </testsuite>
+</testsuites>
