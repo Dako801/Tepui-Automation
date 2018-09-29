@@ -21,7 +21,7 @@ module.exports = (tepuiObjects, input) => {
         .click('@continueToShipping')
         .waitForElementPresent('span[data-shipping-method-label-title="Economy Shipping"]', 10000)
         .click('@continueToPayment')
-        .waitForElementPresent('@cardNumber', 500)
+        .waitForElementPresent('@card', 500)
         .click('@card')
         // .sendKeys('\uE004')
         // .sendKeys(input.cardNumber)
